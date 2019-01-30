@@ -1,9 +1,7 @@
 .footer { 
-display: flex;
+text-align: center;
 position: sticky;
-bottom: 0;
 color: white;
-justify-content: space-between;
 z-index: 1;
 padding: 2rem;
 }
