@@ -9,9 +9,9 @@ class Header extends Component {
     return (
       <div className={styles.header}>
         <nav className="navbar">
-          <h1 className="logo">
+          <h2 className="logo">
             Mario Quintana
-          </h1>
+          </h2>
           <ul>
             <li>
               <NavLink exact activeClassName="active" to="/">Home</NavLink>
