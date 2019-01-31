@@ -8,6 +8,7 @@ class Projects extends Component {
     return (
       <div className={styles.home}>
         <div className="projectcase">
+          <h1>Projects</h1>
           <div className="gallery">
             <figure className="gallery__item gallery__item--1">
               <img src={require('../../assets/edge.png')} className="gallery__img" alt="Image 1"/>
