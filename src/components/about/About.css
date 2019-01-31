@@ -1,10 +1,10 @@
-.homecase {
+.aboutcase {
   color: white;
   background: url('../../assets/2.png') no-repeat center center/cover;
   height: 100vh;
 }
 
-.homecase-content {
+.aboutcase-content {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -19,4 +19,25 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0,0,0,0.7)
+}
+
+.aboutcase .items {
+  display: flex;
+  padding: 1rem;
+}
+
+.aboutcase .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 1rem;
+}
+
+.aboutcase .items .item i {
+  padding: 1rem;
+}
+
+img {
+  width: 350px;
+  border: solid black 3px;
+  border-radius: 5px;
 }
