@@ -9,6 +9,7 @@ class Contact extends Component {
       <div className={styles.home}>
         <header className="contactcase">
           <div className="contactcase-content">
+            <h1>Contact</h1>
             <div className="items">
               <div className="item">
                 <i className="fab fa-linkedin-in fa-3x"></i>

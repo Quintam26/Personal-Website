@@ -4,6 +4,10 @@
   height: 100vh;
 }
 
+.aboutcase h1 {
+  padding: 2.5rem;
+}
+
 .aboutcase-content {
   display: flex;
   text-align: center;

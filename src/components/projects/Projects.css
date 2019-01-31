@@ -6,14 +6,15 @@
 }
 
 .projectcase h1 {
-  padding: 2.5rem;
+  padding: 3rem;
 }
 
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 5vw);
-  padding: 0 10rem;
+  grid-template-rows: repeat(8, 4.5vw);
+  grid-gap: .1rem;
+  padding: 0 15rem;
 }
 
 .gallery__img {
