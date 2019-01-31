@@ -1,0 +1,32 @@
+.contactcase {
+  color: white;
+  background: url('../../assets/0.png') no-repeat center center/cover,
+  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-blend-mode: overlay;
+  height: 100vh;
+}
+
+.contactcase-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 2rem;
+}
+
+.contactcase .items {
+  display: flex;
+  padding: 1rem;
+}
+
+.contactcase .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 10rem;
+}
+
+.contactcase .items .item i {
+  padding: 1rem;
+}

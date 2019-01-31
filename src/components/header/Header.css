@@ -2,10 +2,11 @@
   display: flex;
   position: sticky;
   top: 0;
+  background: black;
   color: white;
   justify-content: space-between;
   z-index: 1;
-  padding: 2rem;
+  padding: 1rem 5rem;
 }
 
 .navbar ul {

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from '../header/Header';
 import styles from './Contact.css';
 
 class Contact extends Component {
@@ -8,15 +7,28 @@ class Contact extends Component {
 
     return (
       <div className={styles.home}>
-        <header className="homecase">
-          <Header/>
-          <div className="homecase-content">
-            <h1 className="home-heading">
-              Contact
-            </h1>
-            <p className="lead">
-            
-            </p>
+        <header className="contactcase">
+          <div className="contactcase-content">
+            <div className="items">
+              <div className="item">
+                <i className="fab fa-linkedin-in fa-3x"></i>
+                <div>
+                  <h3>LinkedIn</h3>
+                </div>
+              </div>
+              <div className="item">
+                <i className="fab fa-github fa-3x"></i>
+                <div>
+                  <h3>GitHub</h3>
+                </div>
+              </div>
+              <div className="item">
+                <i className="fab fa-twitter fa-3x"></i>
+                <div>
+                  <h3>Twitter</h3>
+                </div>
+              </div>
+            </div>
           </div>
         </header>
       </div>
