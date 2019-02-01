@@ -11,10 +11,10 @@ class Home extends Component {
           <header className="homecase">
             <div className="homecase-content">
               <h1 className="home-heading">
-              Reps For Jesus
+              For Nasser, there are two absolutes, the first thing is consistency the second is intensity.
               </h1>
               <p className="lead">
-              For Nasser, there are two absolutes, the first thing is consistency the second is intensity
+              Nasser El Sombaty
               </p>
             </div>
           </header>

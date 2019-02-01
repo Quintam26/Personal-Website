@@ -5,13 +5,11 @@
 }
 
 .aboutcase h1 {
-  padding: 2.5rem;
+  padding: 2rem 0;
 }
 
 .aboutcase-content {
   display: flex;
-  text-align: center;
-  justify-content: center;
   align-items: center;
   height: 100%;
   padding: 0 2rem;
@@ -25,12 +23,15 @@
 
 .aboutcase .items .item {
   flex: 1;
-  text-align: center;
   padding: 1rem;
 }
 
 .aboutcase .items .item i {
   padding: 1rem;
+}
+
+.aboutcase .items .item p {
+  font-size: 1.4rem;
 }
 
 img {
