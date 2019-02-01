@@ -1,5 +1,5 @@
 .contactcase {
-  background: url('../../assets/0.png') no-repeat center center/cover,
+  background: url('../../assets/2.png') no-repeat center center/cover,
   linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
   background-blend-mode: overlay;
   height: 100vh;
@@ -21,6 +21,11 @@
   padding: 1rem;
 }
 
+.contactcase .items a {
+  text-decoration: none;
+  color: white;
+}
+
 .contactcase .items .item {
   flex: 1;
   text-align: center;
@@ -29,4 +34,5 @@
 
 .contactcase .items .item i {
   padding: 1rem;
+  cursor: pointer;
 }

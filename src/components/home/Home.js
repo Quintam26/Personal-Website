@@ -7,16 +7,18 @@ class Home extends Component {
 
     return (
       <div className={styles.home}>
-        <header className="homecase">
-          <div className="homecase-content">
-            <h1 className="home-heading">
+        <div className="home">
+          <header className="homecase">
+            <div className="homecase-content">
+              <h1 className="home-heading">
               Reps For Jesus
-            </h1>
-            <p className="lead">
+              </h1>
+              <p className="lead">
               For Nasser, there are two absolutes, the first thing is consistency the second is intensity
-            </p>
-          </div>
-        </header>
+              </p>
+            </div>
+          </header>
+        </div>
       </div>
     );
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter as Router, } from 'react-router-dom';
 import Header from '../header/Header';
 import Home from '../home/Home';
 import About from '../about/About';
@@ -12,14 +13,24 @@ class App extends Component {
   render() {
 
     return (
-      <div>
-        <Header/>
-        <Home/>
-        <About/>
-        <Projects/>
-        <Contact/>
-        <Footer/>
-      </div>
+      <Router>
+        <div>
+          <header>
+            <Header/>
+          </header>
+
+          <main>
+            <Home title="home"/>
+            <About title="about"/>
+            <Projects title="projects"/>
+            <Contact title="contact"/>
+          </main>
+          
+          <footer>
+            <Footer/>
+          </footer>
+        </div>
+      </Router>
     );
   }
 }
