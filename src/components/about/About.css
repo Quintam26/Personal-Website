@@ -24,6 +24,8 @@
 .aboutcase .items .item {
   flex: 1;
   padding: 1rem;
+  line-height: 1.5;
+
 }
 
 .aboutcase .items .item i {

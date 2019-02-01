@@ -15,9 +15,7 @@ class About extends Component {
                 <div className="item">
                   <div>
                     <h1>About</h1>
-                    <p>Born and raised in Parkdale, Oregon. At a young age began harvesting various fruits with his family during the summer breaks. Also has German and Lab mix dog named Lucy.
-                  Graduated from Portland State University in 2015. Majored in International Studies with a focus on Latin America. Also Attended Alchemy Code Lab in 2018 focusing on Full-Stack JavaScript.
-                  An avid reader of philosophy, biographies, international development, and classics. Dedicates his lifestyle to powerlifting and the pursuit of greater strength.</p>
+                    <p>Mario born and raised in Parkdale, Oregon was molded by the extreme working conditions in the orchards his family and he harvested for many years. His tenacious nature can be seen by the discipline that defines his personal development. From following a strict powerlifting program, adhering to a rigorous diet, to reading books in philosophy, inernational development, history, and the classics Mario seeks to master himself.</p>
                   </div>
                 </div>
               </div>

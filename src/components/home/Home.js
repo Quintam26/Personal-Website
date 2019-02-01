@@ -11,10 +11,10 @@ class Home extends Component {
           <header className="homecase">
             <div className="homecase-content">
               <h1 className="home-heading">
-              For Nasser, there are two absolutes, the first thing is consistency the second is intensity.
+              One does not accumulate but eliminate. It is not daily increase but daily decrease. The height of cultivation always runs to simplicity
               </h1>
               <p className="lead">
-              Nasser El Sombaty
+              Bruce Lee
               </p>
             </div>
           </header>
