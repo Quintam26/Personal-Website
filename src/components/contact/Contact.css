@@ -26,6 +26,11 @@
   color: white;
 }
 
+.contactcase .items h3:hover {
+  background: red;
+  border-radius: 2rem;
+}
+
 .contactcase .items .item {
   flex: 1;
   text-align: center;

@@ -14,25 +14,27 @@ class Contact extends Component {
               <div className="items">
                 <div className="item">
                   <a href="https://www.linkedin.com/in/mario-quintana/" target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-linkedin-in fa-3x"></i>
+                    <i className="fab fa-linkedin-in fa-4x"></i>
                     <div>
                       <h3>LinkedIn</h3>
                     </div>
                   </a>
                 </div>
                 <div className="item">
-                  <a href="https://github.com/Quintam26"target="_blank" rel="noopener noreferrer">
-                    <i className="fab fa-github fa-3x"></i>
+                  <a href="https://github.com/Quintam26" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-github fa-4x"></i>
                     <div>
                       <h3>GitHub</h3>
                     </div>
                   </a>
                 </div>
                 <div className="item">
-                  <i className="fab fa-twitter fa-3x"></i>
-                  <div>
-                    <h3>Twitter</h3>
-                  </div>
+                  <a href="https://twitter.com/RepsforStrength" target="_blank" rel="noopener noreferrer">
+                    <i className="fab fa-twitter fa-4x"></i>
+                    <div>
+                      <h3>Twitter</h3>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
