@@ -16,12 +16,19 @@
   padding: 0 2rem;
 }
 
+@media(max-width:1024px) {
+  .contactcase-content h1 {
+    font-size: 3rem;
+  }
+}
+
 @media(max-width:768px) {
   .contactcase-content h1 {
     padding-bottom: 5rem;
     font-size: 3rem;
   }
 }
+
 
 .contactcase .items {
   display: flex;
@@ -49,12 +56,18 @@
   text-align: center;
   padding: 10rem;
 }
+@media(max-width:1024px) {
+ .contactcase .items .item {
+   padding: 5rem;
+ } 
+}
 
 @media(max-width:768px) {
   .contactcase .items .item {
     padding: 2rem;
   }
 }
+
 
 .contactcase .items .item i {
   padding: 1rem;
