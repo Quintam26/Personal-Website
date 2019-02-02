@@ -15,7 +15,10 @@ class About extends Component {
                 <div className="item">
                   <div>
                     <h1>About</h1>
-                    <p>Mario born and raised in Parkdale, Oregon was molded by the extreme working conditions in the orchards his family and he harvested for many years. His tenacious nature can be seen by the discipline that defines his personal development. From following a strict powerlifting program, adhering to a rigorous diet, to reading books in philosophy, inernational development, history, and the classics Mario seeks to master himself.</p>
+                    <p>Mario born and raised in Parkdale, Oregon was molded by the extreme working conditions in the orchards his family and he harvested for many years. His tenacious nature can be seen by the discipline that defines his personal development. Following a rigorous powerlifting program, adhering to a unmerciful diet, reading books in philosophy, inernational development, history, and the classics Mario seeks to master himself.</p>
+                    <br/>
+                    <h1>Skills</h1>
+                    <p><strong>Languages</strong> - JavaScript,HTML/CSS <strong>Frameworks/Libraries</strong> - React, Jest, Redux, NodeJS, Express, Mocha, Chai, Mongoose <strong>Databases</strong> - MongoDB, Firebase <strong>Tools</strong> - Heroku, Git, GitHub <strong>Dev Practices</strong> - TDD/BDD <strong>Bilingual</strong> - English, Spanish</p>
                   </div>
                 </div>
               </div>
