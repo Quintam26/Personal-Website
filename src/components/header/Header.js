@@ -12,7 +12,7 @@ class Header extends Component {
   render() {
 
     return (
-      <div className={styles.header}>
+      <div className={styles.header} id="ncontain">
         <StickyContainer>
           <Sticky>{({ style }) =>
             <nav className="navbar" style={style} id="nav">

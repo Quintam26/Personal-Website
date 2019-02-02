@@ -21,6 +21,12 @@
   background-color: rgba(0,0,0,0.7);
 }
 
+@media(max-width: 768px) {
+  .homecase-content {
+    padding-top: 10rem;
+  }
+}
+
 .homecase-content p {
   padding: 2rem;
   font-size: 1.5rem;
