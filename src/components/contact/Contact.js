@@ -16,7 +16,7 @@ class Contact extends Component {
                   <a href="https://www.linkedin.com/in/mario-quintana/" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-linkedin-in fa-4x"></i>
                     <div>
-                      <h3>LinkedIn</h3>
+                      <h3 className="link">LinkedIn</h3>
                     </div>
                   </a>
                 </div>
@@ -24,7 +24,7 @@ class Contact extends Component {
                   <a href="https://github.com/Quintam26" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-github fa-4x"></i>
                     <div>
-                      <h3>GitHub</h3>
+                      <h3 className="git">GitHub</h3>
                     </div>
                   </a>
                 </div>
@@ -32,7 +32,7 @@ class Contact extends Component {
                   <a href="https://twitter.com/RepsforStrength" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-twitter fa-4x"></i>
                     <div>
-                      <h3>Twitter</h3>
+                      <h3 className="twi">Twitter</h3>
                     </div>
                   </a>
                 </div>

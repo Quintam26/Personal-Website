@@ -14,6 +14,7 @@ class Projects extends Component {
               <figure className="gallery__item gallery__item--1">
                 <a target="_blank"><img src={require('../../assets/reaction.png')} className="gallery__img" alt="Image 1"/></a>
               </figure>
+              <br/>
               <figure className="gallery__item gallery__item--2">
                 <a href="https://github.com/Quintam26/Contact-Manager" target="_blank" rel="noopener noreferrer"><img src={require('../../assets/contact.png')} className="gallery__img" alt="Image 2"/></a>
               </figure>

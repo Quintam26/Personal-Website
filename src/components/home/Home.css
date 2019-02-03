@@ -36,3 +36,22 @@
   width: 50%;
   overflow: hidden;
 }
+
+@media(max-width:1024px) {
+  .homecase-content h1 {
+    width: 100%;
+  }
+}
+
+@media(max-width:768px) {
+  .homecase-content h1 {
+    width: 100%;
+  }
+}
+
+@media(max-width:360px) {
+  .homecase-content h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}

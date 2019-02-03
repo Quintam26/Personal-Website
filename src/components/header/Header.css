@@ -12,7 +12,15 @@
 }
 
 @media(max-width:768px) {
-  .navbar {padding: 1.5rem 2rem;}
+  .navbar {
+    padding: 1.5rem 2rem;
+  }
+}
+
+@media(max-width:360px) {
+  .navbar {
+    padding: 1rem;
+  }
 }
 
 .navcontent ul {
@@ -22,12 +30,31 @@
   list-style: none;
 }
 
+@media(max-width:360px) {
+  .navcontent ul {
+  padding: 0;
+  justify-content: center;
+  }
+}
+
 .navbar .navcontent h2 {
   display: flex;
   padding: .48rem 0;
   float: left;
   color: white;
   cursor: pointer;
+}
+
+@media(max-width:360px) {
+  .navbar .navcontent h2 {
+  display: none;
+  }
+}
+
+@media(max-width:360px) {
+  .navbar .navcontent ul li {
+    display: flex;
+  }
 }
 
 .navbar ul li a {
@@ -45,4 +72,12 @@
 
 .navbar ul li .active {
   color: red;
+}
+
+.navcontent i {
+  display: none;
+}
+
+.navcontent input {
+  display: none;
 }
