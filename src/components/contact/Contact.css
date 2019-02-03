@@ -29,6 +29,12 @@
   }
 }
 
+@media(max-width:375px) {
+  .contactcase-content h1 {
+    font-size: 2rem;
+  }
+}
+
 @media(max-width:360px) {
   .contactcase-content h1 {
     font-size: 2rem;
@@ -51,11 +57,18 @@
   color: white;
 }
 
+@media(max-width:375px) {
+  .contactcase .items h3 {
+    font-size: 1.2rem;
+  }
+}
+
 @media(max-width:360px) {
   .contactcase .items h3 {
     font-size: 1.2rem;
   }
 }
+
 .contactcase .items h3:hover {
   background: red;
   border-radius: 2rem;
@@ -78,6 +91,12 @@
   }
 }
 
+@media(max-width:375px) {
+  .contactcase .items .item {
+    padding: .5rem;
+  }
+}
+
 @media(max-width:360px) {
   .contactcase .items .item {
     padding: .5rem;
@@ -89,9 +108,27 @@
   cursor: pointer;
 }
 
+@media(max-width:375px) {
+  .contactcase .items .item i {
+    font-size: 2.5rem;
+  }
+}
+
 @media(max-width:360px) {
   .contactcase .items .item i {
     font-size: 2.5rem;
+  }
+}
+
+@media(max-width:375px) {
+  .contactcase .items .item .link {
+    visibility: hidden;
+  }
+  .contactcase .items .item .link::before {
+    content: 'https://www.linkedin.com/in/mario-quintana/';
+    visibility: visible;
+    justify-content: center;
+    display: flex;
   }
 }
 
@@ -107,12 +144,36 @@
   }
 }
 
+@media(max-width:375px) {
+  .contactcase .items .item .git {
+    visibility: hidden;
+  }
+  .contactcase .items .item .git::before {
+    content: 'https://github.com/Quintam26';
+    visibility: visible;
+    justify-content: center;
+    display: flex;
+  }
+}
+
 @media(max-width:360px) {
   .contactcase .items .item .git {
     visibility: hidden;
   }
   .contactcase .items .item .git::before {
     content: 'https://github.com/Quintam26';
+    visibility: visible;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media(max-width:375px) {
+  .contactcase .items .item .twi {
+    visibility: hidden;
+  }
+  .contactcase .items .item .twi::before {
+    content: 'https://twitter.com/RepsforStrength';
     visibility: visible;
     justify-content: center;
     display: flex;

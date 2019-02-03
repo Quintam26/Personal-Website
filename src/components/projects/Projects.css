@@ -21,9 +21,17 @@
   }
 }
 
+@media(max-width:375px) {
+  .projects .projectcase h1 {
+    font-size: 2rem;
+    padding-bottom: 8rem;
+  }
+}
+
 @media(max-width:360px) {
   .projects .projectcase h1 {
     font-size: 2rem;
+    padding-bottom: 9rem;
   }
 }
 
@@ -49,12 +57,21 @@
   } 
 }
 
+@media(max-width:375px) {
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1.5rem;
+  }
+}
+
 @media(max-width:360px) {
   .gallery {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 0 2.5rem;
+    padding: 1.5rem;
   }
 }
 
@@ -81,11 +98,6 @@
   }
 }
 
-@media(max-width:360px) {
-  .projectcase .gallery figure img {
-    filter: none;
-  }
-}
 
 .gallery__img {
   width: 100%;
@@ -100,34 +112,11 @@
   grid-row-end: 3;
 }
 
-@media(max-width:360px) {
-  .gallery__item--1 {
-    visibility: hidden;
-  }
-
-  .gallery__item--1::before {
-    content: 'Reaction Shot';
-    visibility: visible;
-  }
-}
-
 .gallery__item--2 {
   grid-column-start: 3;
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 3;
-}
-
-
-@media(max-width:360px) {
-  .gallery__item--2 {
-    visibility: hidden;
-  }
-
-  .gallery__item--2::before {
-    content: 'Contact Manager';
-    visibility: visible;
-  }
 }
 
 .gallery__item--3 {
@@ -137,35 +126,11 @@
   grid-row-end: 6;
 }
 
-
-@media(max-width:360px) {
-  .gallery__item--3 {
-    visibility: hidden;
-  }
-
-  .gallery__item--3::before {
-    content: 'AutoSearch';
-    visibility: visible;
-  }
-}
-
 .gallery__item--4 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 3;
   grid-row-end: 6;
-}
-
-
-@media(max-width:360px) {
-  .gallery__item--4 {
-    visibility: hidden;
-  }
-
-  .gallery__item--4::before {
-    content: 'CitySecrets';
-    visibility: visible;
-  }
 }
 
 .gallery__item--5 {
@@ -175,32 +140,9 @@
   grid-row-end: 9;
 }
 
-@media(max-width:360px) {
-  .gallery__item--5 {
-    visibility: hidden;
-  }
-
-  .gallery__item--5::before {
-    content: 'Edge';
-    visibility: visible;
-  }
-}
-
 .gallery__item--6 {
   grid-column-start: 5;
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
-}
-
-
-@media(max-width:360px) {
-  .gallery__item--6 {
-    visibility: hidden;
-  }
-
-  .gallery__item--6::before {
-    content: 'Client Book';
-    visibility: visible;
-  }
 }
