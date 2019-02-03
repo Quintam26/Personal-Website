@@ -1,0 +1,206 @@
+.projectcase {
+  color: white;
+  background: rgb(21, 21, 21);
+  height: 100vh;
+  text-align: center;
+}
+
+.projectcase h1 {
+  padding: 3rem;
+}
+
+@media(max-width:1024px) {
+  .projects .projectcase h1 {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width:768px) {
+  .projects .projectcase h1 {
+    font-size: 2.7rem;
+  }
+}
+
+@media(max-width:360px) {
+  .projects .projectcase h1 {
+    font-size: 2rem;
+  }
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 4.5vw);
+  grid-gap: .1rem;
+  padding: 0 15rem;
+}
+
+@media(max-width:1024px) {
+  .gallery {
+    display: block;
+    padding: 0 22rem;
+  }
+}
+
+@media(max-width:768px) {
+ .gallery {
+   display: block;
+   padding: 5rem 13.8rem;
+  } 
+}
+
+@media(max-width:360px) {
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 2.5rem;
+  }
+}
+
+.projectcase .gallery figure img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.projectcase .gallery figure img:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+}
+
+@media(max-width:1024px) {
+  .projectcase .gallery figure img {
+    filter: none;
+  }
+}
+
+@media(max-width:768px) {
+  .projectcase .gallery figure img {
+    filter: none;
+  }
+}
+
+@media(max-width:360px) {
+  .projectcase .gallery figure img {
+    filter: none;
+  }
+}
+
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  border: solid 5px black;
+}
+
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+@media(max-width:360px) {
+  .gallery__item--1 {
+    visibility: hidden;
+  }
+
+  .gallery__item--1::before {
+    content: 'Reaction Shot';
+    visibility: visible;
+  }
+}
+
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+
+@media(max-width:360px) {
+  .gallery__item--2 {
+    visibility: hidden;
+  }
+
+  .gallery__item--2::before {
+    content: 'Contact Manager';
+    visibility: visible;
+  }
+}
+
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+
+@media(max-width:360px) {
+  .gallery__item--3 {
+    visibility: hidden;
+  }
+
+  .gallery__item--3::before {
+    content: 'AutoSearch';
+    visibility: visible;
+  }
+}
+
+.gallery__item--4 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+
+@media(max-width:360px) {
+  .gallery__item--4 {
+    visibility: hidden;
+  }
+
+  .gallery__item--4::before {
+    content: 'CitySecrets';
+    visibility: visible;
+  }
+}
+
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+@media(max-width:360px) {
+  .gallery__item--5 {
+    visibility: hidden;
+  }
+
+  .gallery__item--5::before {
+    content: 'Edge';
+    visibility: visible;
+  }
+}
+
+.gallery__item--6 {
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
+}
+
+
+@media(max-width:360px) {
+  .gallery__item--6 {
+    visibility: hidden;
+  }
+
+  .gallery__item--6::before {
+    content: 'Client Book';
+    visibility: visible;
+  }
+}

@@ -1,0 +1,132 @@
+.contactcase {
+  background: url('../../assets/2.png') no-repeat center center/cover,
+  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+  background-blend-mode: overlay;
+  height: 100vh;
+}
+
+.contactcase-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 2rem;
+}
+
+@media(max-width:1024px) {
+  .contactcase-content h1 {
+    font-size: 3rem;
+  }
+}
+
+@media(max-width:768px) {
+  .contactcase-content h1 {
+    padding-bottom: 5rem;
+    font-size: 3rem;
+  }
+}
+
+@media(max-width:360px) {
+  .contactcase-content h1 {
+    font-size: 2rem;
+  }
+}
+
+.contactcase .items {
+  display: flex;
+  padding: 1rem;
+}
+
+@media(max-width:768px) {
+  .contactcase .items {
+    flex-direction: column;
+  }
+}
+
+.contactcase .items a {
+  text-decoration: none;
+  color: white;
+}
+
+@media(max-width:360px) {
+  .contactcase .items h3 {
+    font-size: 1.2rem;
+  }
+}
+.contactcase .items h3:hover {
+  background: red;
+  border-radius: 2rem;
+}
+
+.contactcase .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 10rem;
+}
+@media(max-width:1024px) {
+ .contactcase .items .item {
+   padding: 5rem;
+ } 
+}
+
+@media(max-width:768px) {
+  .contactcase .items .item {
+    padding: 2rem;
+  }
+}
+
+@media(max-width:360px) {
+  .contactcase .items .item {
+    padding: .5rem;
+  }
+}
+
+.contactcase .items .item i {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media(max-width:360px) {
+  .contactcase .items .item i {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width:360px) {
+  .contactcase .items .item .link {
+    visibility: hidden;
+  }
+  .contactcase .items .item .link::before {
+    content: 'https://www.linkedin.com/in/mario-quintana/';
+    visibility: visible;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media(max-width:360px) {
+  .contactcase .items .item .git {
+    visibility: hidden;
+  }
+  .contactcase .items .item .git::before {
+    content: 'https://github.com/Quintam26';
+    visibility: visible;
+    justify-content: center;
+    display: flex;
+  }
+}
+
+@media(max-width:360px) {
+  .contactcase .items .item .twi {
+    visibility: hidden;
+  }
+  .contactcase .items .item .twi::before {
+    content: 'https://twitter.com/RepsforStrength';
+    visibility: visible;
+    justify-content: center;
+    display: flex;
+  }
+}
