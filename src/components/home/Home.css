@@ -49,6 +49,13 @@
   }
 }
 
+@media(max-width:375px) {
+  .homecase-content h1 {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
+
 @media(max-width:360px) {
   .homecase-content h1 {
     font-size: 1.5rem;
