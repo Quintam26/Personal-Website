@@ -2,15 +2,13 @@
   "name": "mqwebsite",
   "version": "1.0.0",
   "description": "personal website",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "lint": "eslint .",
-    "pretest": "npm run lint",
-    "test": "npm run jest",
-    "build": "webpack --mode production",
-    "jest": "jest -c ./jest/jest.config.js",
-    "test:watch": "npm run jest -- --watch",
-    "start": "webpack-dev-server --hot --open --mode development"
+    "lint": "eslint src",
+    "build": "webpack --config webpack.prod.config.js",
+    "start": "webpack-dev-server --open --config webpack.dev.config.js",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
