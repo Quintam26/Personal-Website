@@ -15,7 +15,7 @@ class About extends Component {
                 <div className="item">
                   <div className="bio">
                     <h1>About</h1>
-                    <p>Mario born and raised in Parkdale, Oregon was molded by the extreme working conditions in the orchards his family and he harvested for many years. His tenacious nature can be seen by the discipline that defines his personal development. Following a rigorous powerlifting program, adhering to a unmerciful diet, reading books in philosophy, inernational development, history, and the classics Mario seeks to master himself.</p>
+                    <p>Mario born and raised in Parkdale, Oregon was molded by the extreme working conditions in the orchards his family and he harvested for many years. His tenacious nature can be seen by the discipline that defines his personal development. Following a rigorous powerlifting program, adhering to a unmerciful diet, reading books in philosophy, international development, history, and the classics Mario seeks to master himself.</p>
                   </div>
                   <br/>
                   <div className="skl">
