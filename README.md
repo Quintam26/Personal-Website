@@ -1,5 +1,3 @@
-Live here: www.mariojsquintana.com
-
 Used:
   - React
   - Webpack
@@ -8,3 +6,5 @@ Used:
   - Responsive image loading
   - Mobile first / responsive design
   - Jest to test
+  
+  Live - www.mariojsquintana.com
