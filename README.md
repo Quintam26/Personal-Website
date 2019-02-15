@@ -1,4 +1,4 @@
-Used:
+Created with:
   - React
   - Webpack
   - Netlify for hosting
