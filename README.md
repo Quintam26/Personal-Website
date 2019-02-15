@@ -7,4 +7,4 @@ Used:
   - Mobile first / responsive design
   - Jest to test
   
-  Live - www.mariojsquintana.com
+  Live - https://www.mariojrquintana.com/
