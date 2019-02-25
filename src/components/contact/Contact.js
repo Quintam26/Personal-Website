@@ -36,14 +36,14 @@ class Contact extends Component {
                     </div>
                   </a>
                 </div>
-                <div className="item">
+                {/* <div className="item">
                   <a href="" target="_blank" rel="noopener noreferrer">
                     <i className="fas fa-envelope fa-4x"></i>
                     <div>
-                      <h3 className="ema">pyrros2000@gmail.com</h3>
+                      <h3 className="ema">Email</h3>
                     </div>
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </header>

@@ -15,12 +15,7 @@ class About extends Component {
                 <div className="item">
                   <div className="bio">
                     <h1>About</h1>
-                    <p>Mario born and raised in Parkdale, Oregon was molded by the extreme working conditions in the orchards his family and he harvested for many years. His tenacious nature can be seen by the discipline that defines his personal development. Following a rigorous powerlifting program, adhering to a unmerciful diet, reading books in philosophy, international development, history and the classics Mario seeks to master himself.</p>
-                  </div>
-                  <br/>
-                  <div className="skl">
-                    <h1>Skills</h1>
-                    <p><strong>Languages</strong> - JavaScript, HTML, CSS <strong>Frameworks/Libraries</strong> - React, Jest, Redux, NodeJS, Express, Mocha, Chai, Mongoose <strong>Databases</strong> - MongoDB, Firebase, PostgreSQL <strong>Tools</strong> - Heroku, Netlify, Git, GitHub <strong>Dev Practices</strong> - TDD/BDD <strong>Bilingual</strong> - English, Spanish</p>
+                    <p>Born and raised in Oregon, I had a humble upbringing harvesting for many years with my family the orchards of Hood River. With time I was exposed to technology through video games, computers at school, and the rise of the internet. As technology improved I found myself watching TechTV, reading technology magazines, and consuming any information. However,one day I found a online tutorial on how to build a webpage. I created a crude webpage of my favorite car and for the first time I realized that I wanted to be a developer. I spend my free time training as powerlifter and reading as well.</p>
                   </div>
                 </div>
               </div>
