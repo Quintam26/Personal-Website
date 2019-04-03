@@ -29,7 +29,7 @@ class Contact extends Component {
                   </a>
                 </div>
                 <div className="item">
-                  <a href="https://twitter.com/RepsforStrength" target="_blank" rel="noopener noreferrer">
+                  <a href="https://twitter.com/_Mario_Quintana" target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-twitter fa-4x"></i>
                     <div>
                       <h3 className="twi">Twitter</h3>
